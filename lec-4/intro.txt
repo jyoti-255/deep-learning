@@ -1,0 +1,27 @@
+The perceptron algorithm is a simple linear classifier. It works by finding a hyperplane that can separate data points into different classes. However, it has a fundamental limitation: it cannot handle non-linearly separable data.
+
+To understand this problem, let's look at an example using the XOR dataset:
+
+input1  input2  output
+1        1       0
+1        0       1
+0        1       1
+0        0       0
+
+
+The XOR problem is non-linearly separable, meaning no single straight line (or hyperplane in higher dimensions) can separate the classes.
+
+Why Perceptron Fails for XOR
+Linear Decision Boundary: A perceptron can only create a straight-line decision boundary. For linearly separable datasets like AND or OR, this works fine, but for XOR, no single line can separate the classes correctly.
+Non-Linearity: XOR's output depends on a non-linear combination of its inputs, requiring a more complex decision boundary (e.g., two intersecting lines or a curved boundary).
+
+
+
+Visual Explanation
+For XOR data:
+
+Class 0 points: (0, 0) and (1, 1).
+Class 1 points: (0, 1) and (1, 0).
+When plotted, the points form a checkerboard pattern, which cannot be separated by a single straight line.
+
+
