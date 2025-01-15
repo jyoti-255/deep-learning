@@ -1,0 +1,110 @@
+Loss Function
+
+loss function is a method of evaluating how well your algorithm is modelling your dataset.
+
+
+high-->poor
+small-->great
+f(x)=x^2+2
+L(parameters)
+loss function me parameters me changes karne se 
+
+why is loss function important?
+
+
+
+Loss Functions in DL
+Regression-->mse, mae, nuber loss
+
+Classification -->binary crossentropy, categorical cross entro, hinge loss
+
+Autoencoders-->KL divergence
+
+GAN-->discriminator loss,minmax gan loss
+
+Object detection-->focal loss
+
+embedding-->Triplet loss
+
+
+difference between Loss Function and Cost Function
+
+Loss Function     
+1.measures error for a single data point
+
+2.focus on individual predictions.
+
+3.Evaluates how wrong the model is for one example.
+
+4.examples:MSE,MAE,Cross-Entropy for a single point.
+
+5.L(yi,yi^)(per data point)
+
+6.helps compute the gradient for one sample.
+
+Cost Function
+1.Measures error for the entire dataset.
+
+2.Aggregates the loss across all data points.
+
+3.Evaluates the overall performance of the model
+
+4.Average loss,sum of losses,Total Error.
+
+5.J=1/n summation (i=1 to n)L(yi,yi^)(average across datasets
+
+6.guides optimization across the dataset in training.
+
+
+
+
+1.Mean Squared Error (MSE) (Squared loss L2 Loss
+(yi-yi^)*2
+
+Advantages--
+1.easy to interpret
+2.Differentiable(GD)
+3.1 local minima
+
+disadvantages
+1.error unit(squared)-->difference 
+2.not robust to outlier
+3.activation function shud be linear
+
+2.Mean Absolute Error(MAE)-->L1 Loss
+L=|yi-yi^|
+c=1/n summation(i=1 to n)|yi-yi^2|
+
+Advanatages
+1.Intuitive and Easy
+2.Unit-->Same-->y
+3.Robust to Otliers
+
+Disadvantages
+1.Not differentialable
+
+3..Huber loss
+Huber Loss is a loss function used in regression tasks that combines the best aspects of Mean Squared Error (MSE) and Mean Absolute Error (MAE). It is less sensitive to outliers compared to MSE, while still maintaining differentiability around the origin.
+
+4.Binary Cross Entropy(log loss)
+@classification
+@Two Classes
+
+Binary Cross-Entropy (BCE) is a loss function used in binary classification tasks, where the target variable has two possible outcomes (e.g., 0 or 1). It measures the dissimilarity between the predicted probabilities and the actual binary labels.
+
+5..Categorical Cross Entropy
+Categorical Cross-Entropy (CCE) is a loss function used in multi-class classification tasks, where the target variable has more than two classes. It measures the dissimilarity between the true labels (one-hot encoded) and the predicted probabilities (output of a softmax function).
+
+Spare Categorical Entropy
+
+
+Reg-->mse
+   -->if there is outlier use mae
+
+Classification-->binary-->bce
+              -->Multi-->cce
+                      -->sce
+
+
+
+
