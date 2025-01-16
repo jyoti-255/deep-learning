@@ -1,4 +1,4 @@
-Loss Function
+Loss Function in DL
 
 loss function is a method of evaluating how well your algorithm is modelling your dataset.
 
