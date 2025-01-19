@@ -1,0 +1,4 @@
+#BackPropogation
+Algo-->train 
+weights, bias
+
