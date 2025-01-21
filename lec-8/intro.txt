@@ -2,3 +2,5 @@
 Algo-->train 
 weights, bias
 
+Backpropagation (short for "Backward Propagation of Errors") is a method used to train artificial neural networks. Its goal is to reduce the difference between the model’s predicted output and the actual output by adjusting the weights and biases in the network.
+
