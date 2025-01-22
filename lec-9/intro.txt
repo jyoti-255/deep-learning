@@ -1,0 +1,2 @@
+#MLP Memoization
+Memoization is an optimization technique primarily used to enhance the performance of algorithms by storing the results of expensive function calls and reusing them when the same inputs occur again. The term comes from “memorandum“, which refers to a note intended to help with memory.
