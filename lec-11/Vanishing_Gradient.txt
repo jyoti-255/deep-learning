@@ -1,0 +1,5 @@
+#Vanishing Gradient Problem in ANN
+0.1*0.1*0.1*0.1=0.0001
+
+sigmoid/tanh--Af-->
+

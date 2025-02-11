@@ -1,0 +1,45 @@
+Batch Gradient Descent Vs Stochastics Vs Mini Batch Gradient Descent
+
+Batch Gradient Descent
+epoch=10
+for i in range(10):
+ y-hat=np.dot(x,w)+b
+y=50 values
+y_hat,y-->loss
+epochs=# of updates
+entire dataset-->update
+
+
+Stochastic GD
+for i in range(nb_epochs):
+  np.random.shuffle(data)
+  for example in data:
+     params_grad=evalue_gradient(loss_function,example)
+params=params-learning_rate*params_grad
+
+weight updates=epoch*number of rows
+
+which is faster(given same no of epochs)
+
+batch size me 1 diya to stochastic gradient descent if n diya to batch gradient descent....
+
+faster to converge(stochastic fast hota hai)
+
+stochastic -->random-->point-->updates
+Batch-->all points
+
+
+#Mini Batch Gradient Descent
+
+
+difference Between Batch Gradient descent and 
+
+
+#interview question-->
+why batch size is provided in multiple of(2)?
+
+2,4,6,8,128,256
+RAM effective-->binary, keras etc
+
+
+
