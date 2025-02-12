@@ -1,0 +1,20 @@
+1.Fine Tuning NN hyperparameters
+epochs,hidden layers,neurons,learning rate,optimizers,batch size,activation function
+
+2.By Solving problems:
+Vanishing/Exploding gradients
+Not enough data
+slow training
+Overfitting
+
+
+1.hidden Layers:
+1 hidden layer-->512 nuerons-->complex
+3 hidden layer-->32 neurons-->simpler
+
+Deep neural network is better optionO
+Overfitting jab tak nahi ho rha tab tak badha sakte ho hidden layer...
+
+
+
+
